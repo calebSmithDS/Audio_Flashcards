@@ -1,0 +1,4 @@
+Term,Definition
+What is a ploymorphism?,polymorphism is a concept that allows objects of different types to be treated as objects of a common superclass. This makes code more reusable and flexible.
+What is inheritance?,inheritance is a mechanism that allows a class to inherit properties and behaviors from another class.
+What is Encapulation?,encapsulation is the practice of bundling data and the methods that work with it into a single unit

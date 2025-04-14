@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Flashcards Index</title>
+</head>
+<body>
+    <h1>Paste your text</h1>
+    <!-- Text area for manual input -->
+     <textarea id="textInput" rows="10" cols="50" placeholder="Paste your text here..."></textarea>
+     <br></br>
+
+     <!-- Button to process text -->
+    <button onclick="processText()">Import Flashcards</button>
+
+    <!-- Button to delete db -->
+    <button onclick="deleteText()">Delete Flashcards</button>
+    <!-- Button to start voice recognition -->
+    <button onclick="startListening()">Start</button>
+
+     <!-- Next -->
+     <button id="next-btn">Next</button>
+     <!-- Back -->
+     <button onclick="back()">Back</button>
+    
+     <!-- <button onclick="savedToIndexedDB()">Save</button>
+     <button onclick="readFromIndexedDB()">Save</button> -->
+
+    <script src="convert.js"></script>
+    <!-- <script src="speechNav.js"></script> -->
+    <!-- <script src="test.js"></script> -->
+</body>
+</html>
